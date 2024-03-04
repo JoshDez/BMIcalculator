@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="invisible">#00FFFFFF</color>
+
+    <!-- My Palette-->
+    <color name="melon">#FAD8D3</color>
+    <color name="yellow">#EBF3B010</color>
+    <color name="yellow3">#F8BC43</color>
+    <color name="yellow4">#FFE5AA</color>
+    <color name="yellow5">#FD9D0E</color>
+    <color name="dark_yellow">#EB674901</color>
+    <color name="yellow2">#F3FFD673</color>
+    <color name="melon3">#DA563E</color>
+    <color name="melon4">#FF4522</color>
+    <color name="orange">#F8B5A9</color>
+    <color name="thistle">#EBC8E7</color>
+    <color name="thistle4">#452641</color>
+    <color name="thistle2">#E94C2547</color>
+    <color name="thistle3">#AE4C2547</color>
+    <color name="melon2">#C54635</color>
+    <color name="moss_green">#9DD37F</color>
+    <color name="moss_green2">#A5F17B</color>
+    <color name="ultra_violet">#3A457A</color>
+    <color name="ultra_violet2">#57618D</color>
+    <color name="blue">#8EB4FF</color>
+    <color name="old_rose">#AA3D42</color>
+    <color name="green">#4C5F52</color>
+    <color name="green2">#3B8753</color>
+    <color name="dark_blue">#11162B</color>
+    <color name="dark_green">#ED102115</color>
+    <color name="dark_green2">#102115</color>
+    <color name="dark_red">#ED701F11</color>
+
+</resources>

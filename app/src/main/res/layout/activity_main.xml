@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/ultra_violet"
+        android:fontFamily="@font/chickenpie"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/thistle"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="646dp"
+        android:contentDescription="scrollView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:backgroundTint="@color/thistle2"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:fontFamily="@font/chickenpie"
+                        android:gravity="center"
+                        android:text="@string/name"
+                        android:textColor="@color/thistle"
+                        android:textSize="19sp" />
+
+                    <EditText
+                        android:id="@+id/firstNameEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="8dp"
+                        android:background="@color/thistle"
+                        android:ems="10"
+                        android:fontFamily="@font/chickenpie"
+                        android:hint="@string/first_name"
+                        android:inputType="textPersonName"
+                        android:paddingStart="5dp" />
+
+                    <EditText
+                        android:id="@+id/miEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="8dp"
+                        android:background="@color/thistle"
+                        android:ems="10"
+                        android:fontFamily="@font/chickenpie"
+                        android:hint="@string/mi"
+                        android:inputType="textPersonName"
+                        android:paddingStart="5dp" />
+
+                    <EditText
+                        android:id="@+id/lastNameEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="8dp"
+                        android:background="@color/thistle"
+                        android:ems="10"
+                        android:fontFamily="@font/chickenpie"
+                        android:hint="@string/last_name"
+                        android:inputType="textPersonName"
+                        android:paddingStart="5dp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:backgroundTint="@color/dark_green"
+                app:cardCornerRadius="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:fontFamily="@font/chickenpie"
+                        android:gravity="center"
+                        android:text="@string/gender"
+                        android:textColor="@color/melon"
+                        android:textSize="19sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <RadioButton
+                            android:id="@+id/maleRB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@color/green"
+                            android:buttonTint="@color/melon"
+                            android:fontFamily="@font/chickenpie"
+                            android:minHeight="48dp"
+                            android:text="@string/male"
+                            android:textColor="@color/melon"
+                            android:textSize="16dp"
+                            tools:ignore="TextContrastCheck" />
+
+                        <RadioButton
+                            android:id="@+id/femaleRB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:background="@color/green"
+                            android:buttonTint="@color/melon"
+                            android:fontFamily="@font/chickenpie"
+                            android:minHeight="48dp"
+                            android:text="@string/female"
+                            android:textColor="@color/melon"
+                            android:textSize="16dp"
+                            tools:ignore="TextContrastCheck" />
+                    </LinearLayout>
+
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:backgroundTint="@color/dark_red"
+                app:cardCornerRadius="20dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:fontFamily="@font/chickenpie"
+                        android:gravity="center"
+                        android:text="@string/height_weight"
+                        android:textColor="@color/orange"
+                        android:textSize="19sp"/>
+
+                    <EditText
+                        android:id="@+id/heightEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="8dp"
+                        android:background="@color/orange"
+                        android:ems="10"
+                        android:fontFamily="@font/chickenpie"
+                        android:hint="@string/height"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="5dp" />
+
+                    <EditText
+                        android:id="@+id/weightEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="8dp"
+                        android:background="@color/orange"
+                        android:ems="10"
+                        android:fontFamily="@font/chickenpie"
+                        android:hint="@string/weight"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="5dp" />
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Button
+                android:id="@+id/confirmBtn"
+                android:backgroundTint="@color/melon2"
+                android:textColor="@color/melon"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:fontFamily="@font/chickenpie"
+                android:textSize="15sp"
+                android:text="@string/compute" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

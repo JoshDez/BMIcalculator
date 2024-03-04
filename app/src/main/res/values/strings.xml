@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="name">Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mi">M.I.</string>
+    <string name="height">Height in CM</string>
+    <string name="gender">Gender</string>
+    <string name="weight">Weight in KG</string>
+    <string name="height_weight">Height and Weight</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete">Delete</string>
+    <string name="compute">Compute BMI</string>
+    <string name="loading">L  o  a  d  i  n  g</string>
+
+
+    <string name="result">Result</string>
+    <string name="your_result">YOUR BMI RESULT IS</string>
+    <string name="underweight">Less than 18.5</string>
+    <string name="healthy_weight">Greater than or equal to 18.5 and less than 25</string>
+    <string name="overweight">Greater than or equal to 25 and less than 30</string>
+    <string name="obese">Greater than or equal to 30</string>
+
+    <string name="records">Records</string>
+</resources>
